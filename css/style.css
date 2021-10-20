@@ -1,0 +1,76 @@
+body {
+    background: rgb(66, 66, 66);
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.42857143;
+    overflow-x: hidden;
+}
+
+.bg-me {
+    height: 100vh;
+    background-image: url(../img/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-repin {
+    padding: 0.5rem 3.6rem;
+    border-radius: 100px;
+    font-weight: 600;
+}
+.borderme{
+    border: 3px solid rgb(192, 164, 5);
+}
+.card{
+    background: rgb(43, 43, 43);
+}
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Abril Fatface', cursive;
+    font-weight: normal;
+    letter-spacing: .05em;
+    color: rgb(255, 217, 0);
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+p {
+    padding-top: 10px;
+    padding-bottom: 30px;
+
+}
+
+.contact-list {
+    margin-bottom: 3.4em;
+    padding: 0;
+    list-style: none;
+
+}
+
+.contact-list li {
+    font-size: 1.3rem;
+    line-height: 2.4em;
+}
+
+.contact-list li i {
+    line-height: 1.2em;
+    width: 1.2em;
+    height: 1.2em;
+    margin-right: 1em;
+    text-align: center;
+    border-radius: 100px;
+}
+
+.contact-list li a {
+    color: white;
+}
+
+.scrollsaya {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    overflow-x: hidden;
+}
